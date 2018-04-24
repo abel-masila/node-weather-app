@@ -8,5 +8,12 @@ To run this app...
 
 I am using axios to return a promise , so if your request is resolved, the out put should be something like: 
 
+![alt text](https://github.com/abel-masila/node-weather-app/blob/master/img/resolve.PNG "Resolve")
+
 
 If you add an address which does'nt exist, the promise is rejected and returns an error which looks like:
+
+![alt text](https://github.com/abel-masila/node-weather-app/blob/master/img/reject.PNG "Resolve")
+
+
+This app uses `axios,yarrgs` packages to get everything done.
