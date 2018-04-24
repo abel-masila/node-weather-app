@@ -16,4 +16,12 @@ If you add an address which does'nt exist, the promise is rejected and returns a
 ![alt text](https://github.com/abel-masila/node-weather-app/blob/master/img/reject.PNG "Resolve")
 
 
-This app uses `axios,yarrgs` packages to get everything done.
+This app uses `axios,yargs` packages to get everything done.
+
+[Dark Sky API-Docs](https://darksky.net/dev/docs)
+
+[Axios](https://www.npmjs.com/package/axios)
+
+[yargs](https://www.npmjs.com/package/yargs)
+
+[Google maps Geocode api](https://maps.googleapis.com/maps/api/geocode/json?address=nairobi)
