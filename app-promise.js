@@ -29,7 +29,7 @@ axios.get(geocodeURL).then((response)=>{
     const weatherURL=`https://api.darksky.net/forecast/3708bcb6e2a477e7fb94de8fd3ecdfab/${lat},${lng}`;
 
     console.log(response.data.results[0].formatted_address);
-
+    //chain promises to get weather data
     return axios.get(weatherURL);
 }).then((response)=>{
     const temperature=response.data.currently.temperature;
